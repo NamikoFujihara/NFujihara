@@ -1,0 +1,29 @@
+body {
+  color: pink;
+}
+
+a:hover {
+  color: #565656;
+}
+
+.btn {
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.btn a {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 330px;
+  background: #eb5656;
+  padding: 2rem;
+  color: #f5fbff;
+  border: 1px solid #eb5656;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/*# sourceMappingURL=setting.css.map */

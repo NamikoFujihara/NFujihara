@@ -1,0 +1,89 @@
+.footer {
+    border-top: $border;
+
+    &-inner {
+        padding: 2rem 8rem .6rem 6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: $back-color;
+        color: $font-color;
+        z-index: 20;
+
+        @media (max-width: 779px) {
+            width: $pc-width;
+            padding-right: 0;
+            padding-left: 0;
+            margin: 0 auto;
+            display: block;
+          }
+    }
+
+
+      
+    &-logo {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    
+    &-nav {
+        &-item {
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-family: $Eu-font;
+
+            @media (max-width: 779px) {
+                padding: 0;
+                padding-right: 10px;
+              }
+        }
+    }
+
+    &-btop {
+        width: 50px;
+        height: 50px;
+        border:	$border;
+        border-radius: 50%;
+        background: $back-color;
+        display: block; 
+        position: relative;
+        margin-left: 2rem;
+
+        &:hover {
+            background-position: right center;
+            // background-image: linear-gradient(to right, $hover-color 0%, $font-color  30%, $hover-color  100%);
+            background-image: linear-gradient(to right, $font-color 0%, $hover-color  30%, $font-color  80%);
+            background-position: -100%,0;
+            // background-position: -150%,0;
+            // background-position: -175%,0;
+            background-size: 300% auto;
+            color: #fff;
+            border: 0;
+        }
+
+        &-arrow {
+            font-size: 1.4rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+
+    &-right {
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 779px) {
+            justify-content: space-between;
+          }
+    }
+
+    .copy {
+        text-align: center;
+        font-family: $Eu-font;
+        font-size: .6rem;
+        margin-bottom: 1rem;
+    }
+}
