@@ -1,14 +1,12 @@
 var navigationOpenFlag = false;
 var navButtonFlag = true;
 var focusFlag = false;
- 
-//ハンバーガーメニュー
+
     $(function(){
  
       $(document).on('click','.el_humburger',function(){
         if(navButtonFlag){
           spNavInOut.switch();
-          //一時的にボタンを押せなくする
           setTimeout(function(){
             navButtonFlag = true;
           },200);
