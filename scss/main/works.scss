@@ -1,170 +1,8 @@
-// .works {
-//   border-top: 1px solid $font-color;
-//   border-bottom: 1px solid $font-color;
-
-//   &-panel {
-//     display: none;
-
-//     &.active {
-//       display: block;
-//     }
-//   }
-
-
-//   &-inner {
-//     width: $pc-width;
-//     margin: 0 auto;
-//     display: flex;
-//     justify-content: space-between;
-
-
-//     @media (max-width: 779px) {
-//       display: block;
-//     }
-
-//     .btn {
-//       a {
-//         width: (400/1920)*100vw;
-
-//         @media (max-width: 779px) {
-//           width: 100%;
-//         }
-//       }
-//     }
-//   }
-
-//   &-head {
-//     border-right: 1px solid $font-color;
-//     width: (650/1920)*100vw;
-//     padding: 6rem 0;
-
-//     @media (max-width: 779px) {
-//       width: 100%;
-//       border: 0;
-//       padding-bottom: 0;
-//     }
-//   }
-
-//   &-tb {
-
-//     &-list {
-//       width: (400/1920)*100vw;
-//       margin-right: 5rem;
-
-//       @media (max-width: 779px) {
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
-//         margin: 0 auto;
-//         width: 100%;
-
-//       }
-//     }
-
-//     &-item {
-//       border-bottom: $border;
-//       padding: 1.6rem 0 .6rem 0;
-//       font-size: 1.6rem;
-
-//       &:hover {
-//         color: $hover-color;
-//         border-bottom: 1px solid $hover-color;
-//         cursor: pointer;
-//       }
-
-//       @media (max-width: 779px) {
-//         width: (155/375)*100vw;
-//         padding: 0;
-//       }
-//     }
-//   }
-
-//   &-container {
-//     padding: 8rem 5rem;
-//     // display: none;
-
-//     @media (max-width: 779px) {
-//       padding: 0;
-//     }
-
-
-//   }
-
-//   &-content {
-//     display: flex;
-//     justify-content: space-between;
-//     font-family: $ja-font;
-//     margin-bottom: 7rem;
-
-//     @media (max-width: 779px) {
-//       display: block;
-//       margin-bottom: 3rem;
-//     }
-
-//     &-right {
-//       width: calc(60% - 75px + 40px);
-
-//       @media (max-width: 779px) {
-//         width: 100%;
-//       }
-
-
-//       .lb {
-//         background: $back-color;
-//         color: $font-color;
-//         font-size: .8rem;
-//         font-family: $Eu-font;
-//         padding: .1rem .4rem;
-//         margin-right: .4rem;
-//         border: $border;
-//         border-radius: 10px;
-
-//       }
-
-
-
-//       .txtm {
-//         font-weight: bold;
-//         margin-bottom: 8px;
-//       }
-
-
-//       .txts {
-//         margin-bottom: 8px;
-
-//       }
-
-//       .sitelink {
-//         text-decoration: underline;
-//         overflow-wrap: break-word;
-//       }
-//     }
-
-//   }
-
-//   &-img {
-//     width: 40%;
-    
-//     @media (max-width: 779px) {
-//       width: 100%;
-//       height: auto;
-//       margin-bottom: 1rem;
-//     }
-
-//     img {
-//       width: 100%;
-//       height: auto;
-//     }
-//   }
-// }
-
-
-// 下層worksページ
 .works {
 
   border-top: 1px solid $font-color;
   border-bottom: 1px solid $font-color;
-  
+
   &-inner {
     width: $pc-width;
     margin: 0 auto;
@@ -176,7 +14,6 @@
 
     @media (max-width: 779px) {
       width: 100%;
-
       padding-bottom: 0;
     }
   }
@@ -308,5 +145,19 @@
       }
     }
   }
+}
 
+.p-works {
+  &-inner {
+    width: $pc-width;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .works-content {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
 }

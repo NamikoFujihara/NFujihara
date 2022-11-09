@@ -88,9 +88,7 @@ a:hover{
   a {
     display: block;
     box-sizing: border-box;
-    // width: 70%;
     max-width: 450px;
-    // margin: 0 auto;
     background: $back-color;
     padding: 1rem;
     color: $font-color;
@@ -111,8 +109,6 @@ a:hover{
       background-image: linear-gradient(to right, $hover-color 0%, $font-color  30%, $hover-color  100%);
       background-image: linear-gradient(to right, $font-color 0%, $hover-color  30%, $font-color  80%);
       background-position: -100%,0;
-      // background-position: -150%,0;
-      // background-position: -175%,0;
       background-size: 300% auto;
       color: #fff;
       border: 0;
@@ -206,3 +202,4 @@ a:hover{
   font-family: $Eu-font;
   font-size: 1rem;
 }
+
