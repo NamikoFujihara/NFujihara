@@ -1,3 +1,11 @@
+$pc-width: (1720/1920)*100vw;
+$ja-font: fot-cezanne-pron, europa, sans-serif;
+$Eu-font: europa, sans-serif;
+$font-color: #364f6b;
+$back-color: #f5f5f5;
+$hover-color: #06f5fe;
+$border: 1px solid #364f6b;
+
 .works {
 
   border-top: 1px solid $font-color;
@@ -159,5 +167,41 @@
     display: flex;
     justify-content: space-between;
     width: 95%;
+  }
+
+  .u_left {
+    width: 60%;
+
+    @media (max-width: 779px) {
+      width: 100%;
+    }
+  }
+
+  .u_right {
+    width: 40%;
+    margin-left: 2rem;
+
+    @media (max-width: 779px) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
+
+.u_left {
+  width: 60%;
+
+  @media (max-width: 779px) {
+    width: 100%;
+  }
+}
+
+.u_right {
+  width: 40%;
+  margin-left: 2rem;
+
+  @media (max-width: 779px) {
+    width: 100%;
+    margin-left: 0;
   }
 }
